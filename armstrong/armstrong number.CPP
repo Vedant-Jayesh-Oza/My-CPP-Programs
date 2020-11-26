@@ -1,0 +1,26 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+ int num1,num2,sum=0,digit;
+ cout<<"\n ENTER THE NUMBER : ";
+ cin>>num1;
+
+ num2=num1;
+
+ while(num2!=0)
+ {
+ digit=num2%10;
+ sum+=digit*digit*digit;
+ num2/=10;
+ }
+ if(sum==num1)
+ {
+ cout<<"\n IT IS AN ARMSTRONG NUMBER ";
+ }
+ else
+ {
+ cout<<"\n IT IS NOT AN ARMSTRONG NUMBER ";
+ }
+ getch();
+}

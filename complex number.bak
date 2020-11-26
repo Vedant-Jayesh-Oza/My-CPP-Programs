@@ -1,0 +1,72 @@
+#include<iostream.h>
+#include<conio.h>
+#include<stdio.h>
+{
+ struct complex_no
+ {
+  float real;
+  float imag;
+ };
+
+
+
+ void main()
+ {
+  int n1,n2,res;
+  cout<<"\n enter the  two complex nos: ";
+  cout<<"\n";
+  cout<<"\n ENTER THE REAL PART OF NUMBER 1 ";
+  cin>>n1.real;
+  cout<<"\n ENTER THE IMAGINARY PART OF NUMBER 1 ";
+  cin>>n1.imag;
+  cout<<"\n ENTER THE REAL PART OF NUMBER 2 ";
+  cin>>n2.real;
+  cout<<"\n ENTER THE IMAGINARY PART OF NUMBER 2 ";
+  cin>>n2.imag;
+
+  int choice;
+
+  cout<<"\n CHOOSE WHETHER YOU WANT TO ";
+  cout<<"\n 1.add ";
+  cout<<"\n 2.subtract ";
+  cout<<"\n 3.multiply ";
+  cout<<"\n 4.divide ";
+  cin>>choice;
+
+  switch(choice)
+
+  {
+   case 1:
+   res.real=n1.real+n2.real;
+   res.imag=n1.imag+n2.imag;
+   cout<<"\n addition of "<<n1.real<<"+i"<<n1.imag<<"&"<<n2.real<<"+i"<<n2.imag<<"is"<<res.real<<"+i"<<res.imag;
+   break;
+
+   case 2:
+   res.real=n1.real-n2.real;
+   res.imag=n1.imag-n2.imag;
+   cout<<"\n subtraction of "<<n1.real<<"+i"<<n1.imag<<"&"<<n2.real<<"+i"<<n2.imag<<"is"<<res.real<<"+i"<<res.imag;
+   break;
+
+   case 3:
+   res.real=n1.real*n2.real;
+   res.imag=n1.imag*n2.imag;
+   cout<<"\n sum of "<<n1.real<<"+i"<<n1.imag<<"&"<<n2.real<<"+i"<<n2.imag<<"is"<<res.real<<"+i"<<res.imag;
+   break;
+
+   case 4:
+   res.real=n1.real/n2.real;
+   res.imag=n1.imag/n2.imag;
+   cout<<"\n sum of "<<n1.real<<"+i"<<n1.imag<<"&"<<n2.real<<"+i"<<n2.imag<<"is"<<res.real<<"+i"<<res.imag;
+   break;
+
+   default:
+   cout<<"\n INVALID INPUT ";
+  }
+
+ }
+
+ getch();
+} 
+
+

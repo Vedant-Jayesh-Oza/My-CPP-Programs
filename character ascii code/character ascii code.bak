@@ -1,0 +1,12 @@
+// convert character to ascii code
+#include<iostream.h>
+void main()
+{
+
+ char a;
+ cout<<"\n enter the character : ";
+ cin>>a;
+
+ cout<<"\n the ascii value of the character is : "<<a(int);
+ getch();
+}

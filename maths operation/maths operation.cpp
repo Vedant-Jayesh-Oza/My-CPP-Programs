@@ -1,0 +1,22 @@
+// program to perform arithmetic operation
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+  int no1,no2;
+  int add, sub, mul, div;
+  cout<<"enter number 1 : ";
+  cin>>no1;
+  cout<<"\n enter number 2: ";
+  cin>>no2;
+  cout<<"\n-=-=-=-=-=-=-=-=-=-";
+  add = no1 + no2;
+  sub = no1 - no2;
+  mul = no1 * no2;
+  div = no1 / no2;
+  cout<<"\n"<<no1<<" + "<<no2<<" = "<<add;
+  cout<<"\n"<<no1<<" - "<<no2<<" = "<<sub;
+  cout<<"\n"<<no1<<" * "<<no2<<" = "<<mul;
+  cout<<"\n"<<no1<<" \ "<<no2<<" = "<<div;
+  getch();
+  }

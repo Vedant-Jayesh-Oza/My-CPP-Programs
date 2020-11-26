@@ -1,0 +1,34 @@
+// convert km to other units
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+lbl:
+float m,c;
+cout<<"opts\n 1=meter-km\n 2=feet-inches\n 3= inches-feet";
+cout<<"\n enter the measure";
+cin>>m;
+cout<<"\n enter the choice";
+cin>>c;
+if(c==1)
+{
+cout<<"\n the distance is"<<c/1000<<"kms";
+}
+
+else if(c==2)
+{
+cout<<"\n the distance is"<<c*12<<"inches";
+}
+
+ else if (c==3)
+{
+cout<<"\n the distance is"<<c/12<<"feet";
+}
+else
+{
+cout<<"\n enter valid input";
+goto lbl;
+}
+getch();
+}
+

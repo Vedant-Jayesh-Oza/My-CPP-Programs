@@ -1,0 +1,31 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+   int pin=1234;
+   int upin,amt;
+
+   cout<<"Enter The Security Pin : ";
+   cin>>upin;
+
+   if(pin==upin)
+    {
+     cout<<"The Pin Entered is Correct";
+     cout<<"\nEnetr The Amount : ";
+     cin>>amt;
+     int two,five,one;
+     two=amt/2000;
+     five=(amt%2000)/500;
+     one=((amt%2000)%500)/100;
+     cout<<"\nYou Get "<<two<<" Two Thousand Notes ";
+     cout<<"\nYou Get "<<five<<" Five Hundred Notes ";
+     cout<<"\nYou Get "<<one<<" One Hundred Notes  ";
+
+    }
+   else
+    {
+     cout<<"The Pin Entered Is Incorrect";
+    }
+   getch();
+
+}

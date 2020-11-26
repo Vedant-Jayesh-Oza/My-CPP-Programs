@@ -1,0 +1,37 @@
+// office salary
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+ int a,s;
+ lbl:
+ cout<<"\n :::::::::::::::::::CONVERSION PROGRAM::::::::::::::::::";
+ cout<<"\n ENTER THE CHOICE:: \n1.feet to inches\n2.celcius to fahrenheit\n3.rupees to dollar";
+ cin>>a;
+ cout<<"\n enter the unit";
+ cin>>s;
+
+ if(a==1)
+ {
+ cout<<"\n MEASURE IS:"<<(s*12)<<" inches....";
+ }
+
+ else if(a==2)
+ {
+ cout<<"\n TEMPERATURE IS:"<<(s*1.8+32)<<" fahrenheit....";
+ }
+  if(a==3)
+ {
+ cout<<"\n AMOUNT IS:"<<(s/70)<<" dollars$$....";
+ }
+
+ else
+ {
+ cout<<"\n please enter valid choice";
+ goto lbl;
+ }
+ getch();
+ }
+ 
+
+
